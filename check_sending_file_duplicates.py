@@ -98,8 +98,8 @@ def check_for_duplicates(directory, sending_file_path, sending_file_name):
 
 if __name__ == '__main__':
     __location__ = "ENTER PATH TO TARGET DIRECTORY HERE"
-    __test_file_location__ = "ENTER THE LOCATION OF THE TEST FILE HERE"
+    __sending_file_location__ = "ENTER THE LOCATION OF THE SENDING FILE HERE"
     sending_file_name = "ENTER THE NAME OF THE FILE YOU WANT TO SEND HERE"
-    sending_file_path = os.path.join(__test_file_location__, sending_file_name)
+    sending_file_path = os.path.join(__sending_file_location__, sending_file_name)
 
     check_for_duplicates(__location__, sending_file_path, sending_file_name)
